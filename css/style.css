@@ -110,6 +110,10 @@ header .hero__img {
 
 /* MAIN */
 
+main .products_section {
+  padding: 50px 0;
+}
+
 main .products_section .product_content {
   padding: 70px 35px 50px;
   background-color: #FAFAFA;
@@ -122,9 +126,31 @@ main .products_section .img_h2 {
   margin-bottom: 15px;
 }
 
+main .products_section .product_content a {
+  display:block;
+}
+
 main .products_section .product_showcase {
   max-height:246.5px;
   object-position: center;
   max-width:100%;
   margin-top: 15px;
+}
+
+/* Responsive */
+
+@media screen and (max-width:1199px) {
+  main .products_section .product_showcase {
+    max-height:189.83px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  main .products_section .product_showcase {
+    max-height:300px;
+  }
+
+  main .products_section [class*="col-"]:not(:last-child) .product_content {
+    margin-bottom: 30px;
+  }
 }
