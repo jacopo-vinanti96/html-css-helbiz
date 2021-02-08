@@ -246,6 +246,12 @@ main .how_does_it_work .col_custom.sub_title {
 }
 
 @media screen and (max-width:767px) {
+
+  main .how_does_it_work .container_small {
+    width: 100%;
+    margin-top: 280px;
+  }
+
   main .how_does_it_work .col_custom {
     width: 100%;
     padding: 0 30px;
