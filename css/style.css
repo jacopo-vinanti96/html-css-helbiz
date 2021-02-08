@@ -57,7 +57,7 @@ header .navbar {
 }
 
 header .logo {
-  max-width: 100px;
+  width: 65px;
 }
 
 header .main_nav {
