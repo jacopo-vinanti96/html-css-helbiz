@@ -13,6 +13,26 @@ h1 {
   font-weight: 700;
 }
 
+/* Responsive */
+
+@media screen and (max-width:1199px) {
+  h1 {
+    font-size:85px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  h1 {
+    font-size:67px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  h1 {
+    font-size:45px;
+  }
+}
+
 /* MIX */
 
 .display_inline {
