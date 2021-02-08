@@ -164,24 +164,41 @@ main .how_does_it_work {
 main .how_does_it_work .container_small {
   width: 1100px;
   font-size: 0;
-  margin: auto;
-  position: relative;
+  margin: 160px auto 70px;
 }
 
 main .how_does_it_work .banner {
   height:500px;
   position: absolute;
   left: 0;
+  z-index: -1;
 }
 
 main .how_does_it_work .col_custom {
   width: calc(100% / 3);
-  font-size: normal;
+  font-size: 16px;
   display: inline-block;
+  vertical-align: bottom;
+}
+
+main .how_does_it_work .col_custom:not(.phone) {
+  padding-bottom: 170px;
+}
+
+main .how_does_it_work .col_custom h2 {
+  margin-bottom: 15px;
+  margin-left: 100px;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+main .how_does_it_work .col_custom h3 {
+  font-weight: 600;
 }
 
 main .how_does_it_work .col_custom img {
   width:100%;
+  padding: 15%;
 }
 
 
