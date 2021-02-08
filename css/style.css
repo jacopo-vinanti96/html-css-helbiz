@@ -1,3 +1,4 @@
+/* GENERAL */
 * {
   font-family: 'Open Sans', sans-serif;
 }
@@ -6,6 +7,21 @@ ul {
   margin-bottom: 0;
 }
 
+/* TYPO */
+h1 {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+/* MIX */
+
+.display_inline {
+  display: inline;
+}
+
+/* HEADER */
+
+/* Top header */
 header .top_header {
   line-height: 70px;
 }
@@ -17,10 +33,32 @@ header a:hover {
 header .navbar {
   text-transform: uppercase;
   font-size: 12px;
+  background-color: white;
 }
 
 header .logo {
   max-width: 100px;
+}
+
+header .main_nav {
+  display: inline;
+}
+
+
+header .main_nav a {
+  color: black;
+}
+
+header .main_nav a:hover {
+  color: black;
+}
+
+header .main_nav li:not(:last-child) {
+  margin-right: 25px;
+}
+
+header .secondary_nav {
+  display: inline;
 }
 
 header .secondary_nav .lang {
@@ -29,6 +67,7 @@ header .secondary_nav .lang {
   border-left: 1px solid lightgrey;
   background-color: transparent;
   line-height: 16px;
+  margin: 0 15px;
 }
 
 header .secondary_nav .login {
@@ -37,12 +76,23 @@ header .secondary_nav .login {
   padding: 5px 20px;
   background-color: black;
   color: white;
+  display: inline;
 }
 
 header .secondary_nav .hamburger {
   line-height: 16px;
+  display: none;
 }
 
 header .secondary_nav .hamburger i {
   font-size: 20px;
+}
+
+/* Hero */
+header .hero {
+  padding-top: 70px;
+}
+
+header .hero__img {
+  width: 100%;
 }
