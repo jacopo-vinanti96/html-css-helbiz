@@ -1,0 +1,48 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+header .top_header {
+  line-height: 70px;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
+header .navbar {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+header .logo {
+  max-width: 100px;
+}
+
+header .secondary_nav .lang {
+  border: none;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  background-color: transparent;
+  line-height: 16px;
+}
+
+header .secondary_nav .login {
+  font-size: 16px;
+  text-transform: none;
+  padding: 5px 20px;
+  background-color: black;
+  color: white;
+}
+
+header .secondary_nav .hamburger {
+  line-height: 16px;
+}
+
+header .secondary_nav .hamburger i {
+  font-size: 20px;
+}
