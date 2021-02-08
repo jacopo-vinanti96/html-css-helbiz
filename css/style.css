@@ -182,7 +182,7 @@ main .how_does_it_work .col_custom {
 }
 
 main .how_does_it_work .col_custom:not(.phone) {
-  padding-bottom: 170px;
+  padding-bottom: 70px;
 }
 
 main .how_does_it_work .col_custom h2 {
@@ -197,8 +197,20 @@ main .how_does_it_work .col_custom h3 {
 }
 
 main .how_does_it_work .col_custom img {
-  width:100%;
+  width:auto;
   padding: 15%;
+  height: 520px;
+}
+
+main .how_does_it_work .col_custom.phone {
+  position: relative;
+  left: calc(100% / 3);
+  text-align: center;
+}
+
+main .how_does_it_work .col_custom.sub_title {
+  position: relative;
+  right: calc(100% / 3);
 }
 
 
@@ -223,6 +235,28 @@ main .how_does_it_work .col_custom img {
 
   main .how_does_it_work .container_small {
     width: 750px;
+    margin-top: 280px;
   }
 
+  main .how_does_it_work .col_custom img {
+    padding: 5%;
+    max-height: 400px;
+  }
+
+}
+
+@media screen and (max-width:767px) {
+  main .how_does_it_work .col_custom {
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  main .how_does_it_work .col_custom.phone,
+  main .how_does_it_work .col_custom.sub_title {
+    left: 0;
+  }
+
+  main .how_does_it_work .col_custom.sub_title h2 {
+    margin-left: 0;
+  }
 }
