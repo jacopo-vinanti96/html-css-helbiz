@@ -265,4 +265,8 @@ main .how_does_it_work .col_custom.sub_title {
   main .how_does_it_work .col_custom.sub_title h2 {
     margin-left: 0;
   }
+
+  main .how_does_it_work .col_custom:not(.phone) {
+    padding-bottom: 20px;
+  }
 }
